@@ -10,6 +10,10 @@ p {
     line-height: 20px;
 }
 
+img {
+    display: block;
+}
+
 .btn {
     border: 3px solid #fec63e;
     padding: 10px 30px;
@@ -136,7 +140,7 @@ p {
 /* Produtos */
  
 .produtos {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .produtos_lista li {
@@ -153,10 +157,6 @@ p {
     margin-top: 20px;   
 }
 
-.produtos_lista li p {
-    padding: 10px 20px 20px 20px;
-}
-
 .produtos_lista li h3::after {
     content: "";
    display: block;
@@ -164,6 +164,10 @@ p {
    height: 3px;
    background: #000;
    margin: 2px auto;
+}
+
+.produtos_lista li p {
+    padding: 10px 20px 20px 20px;
 }
 
 .produtos_icone {
@@ -203,4 +207,53 @@ p {
 
 .portfolio .call p {
     color: #fff;
+}
+
+/* Qualidade */
+
+.qualidade {
+    padding: 40px 0;
+}
+
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.png") no-repeat center;
+    position: absolute;
+    top: 184px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade_lista {
+    padding-top: 20px;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;   
+}
+
+.qualidade_lista li h3::after {
+    content: "";
+   display: block;
+   width: 60px;
+   height: 3px;
+   background: #000;
+   margin: 7px auto;
 }
