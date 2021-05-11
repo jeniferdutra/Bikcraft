@@ -12,6 +12,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -80,9 +81,8 @@ img {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 83px;
     background: #fec63e;
-    padding: 10px 0;
+    padding: 13px 0;
     z-index: 10; 
 }
 
@@ -93,7 +93,13 @@ img {
 .header_menu ul li {
     display: inline-block;
     margin-left: 25px;
-    margin-top: 21px;
+  color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;  margin-top: 21px;
 }
 
 .header_menu ul li a {
@@ -121,9 +127,9 @@ img {
     height: 390px;
     background: url("../img/bg.jpeg") no-repeat center;
     background-size: cover;
-    margin-top: 82px;
+    margin-top: 88px;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .introducao h1 {
@@ -195,6 +201,10 @@ img {
 .produtos_lista li {
     background: #fec63e;
     text-align: center;
+}
+
+.produtos_lista li img {
+    margin: 0 auto;
 }
 
 .produtos_lista li h3 {
